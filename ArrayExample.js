@@ -14,8 +14,7 @@ for (let i = 0; i < customerNames.length; i++) {
 }
 
 // Enhanced for loop
-for(name.of customerNames){ // <-- Ask why name.of is deprecated
-    console.log(name);      // Week 3 Arrays 1st arrays video
+for (let customerName of customerNames) {
+  // <-- So the 'of' keyword is cruicial here. Don't forget that 'of'.
+  console.log(customerName); // Week 3 Arrays 1st arrays video
 }
-
-
